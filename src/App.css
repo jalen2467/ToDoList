@@ -48,6 +48,14 @@
 .list-item {
   border: 1px solid red;
   background-color: yellow;
+  display: flex;
+  justify-content: space-between;
   margin: 20px;
   margin-bottom: 30px;
 } 
+
+.delete-btn {
+  border: 1px solid orange;
+  background-color: green;
+  width: 30px;
+}
